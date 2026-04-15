@@ -17,7 +17,7 @@
 ---
 
 ## ⚙️ Bytemancy 0
-picoCTF/Bytemancy/Screenshot From 2026-04-14 23-26-30.png
+picoCTF/Bytemancy/Images/Bytemancy0.png
 
 ## 🔍 Analysis
 
