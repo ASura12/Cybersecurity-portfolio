@@ -19,7 +19,13 @@
 ## ⚙️ Bytemancy 0
 
 ### Source Code
-![Source Code](images/Bytemancy0.png)
+![Source Code](Images/Bytemancy0.png)
+
+### Netcat Connection
+![Connection](Images/netcat_bytemancy0.png)
+
+### App.py
+![Connection](Images/
 
 ## 🔍 Analysis
 
