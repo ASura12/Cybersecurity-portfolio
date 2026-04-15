@@ -25,7 +25,7 @@
 ![Connection](Images/netcat_bytemancy0.png)
 
 ### App.py
-![Connection](Images/
+![Connection](Images/app(1).png)
 
 ## 🔍 Analysis
 
@@ -53,3 +53,9 @@ eee
 Instead of typing manually, use:
 
 python -c "print('e' * 3, end='')"
+```
+### Script.py
+![Connection](Images/Script_bytemancy0.png)
+
+### Flag
+![Connection](Images/flag.png)
