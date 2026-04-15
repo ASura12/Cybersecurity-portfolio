@@ -17,7 +17,9 @@
 ---
 
 ## ⚙️ Bytemancy 0
-picoCTF/Bytemancy/Images/Bytemancy0.png
+
+### Source Code
+![Source Code](images/Bytemancy0.png)
 
 ## 🔍 Analysis
 
