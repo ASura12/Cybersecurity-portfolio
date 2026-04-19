@@ -16,6 +16,8 @@
 Enumerate the target, identify SMB shares, access them anonymously, and retrieve the flag.
 
 ---
+### Source
+![Source](Images/Printshares.png)
 
 ## ⚙️ Step 1: Initial Connection
 
@@ -23,6 +25,8 @@ Enumerate the target, identify SMB shares, access them anonymously, and retrieve
 nc -vz mysterious-sea.picoctf.net 58157
 ```
 Used to verify the service is running and reachable.
+### Netcat Connection
+![Netcat COnnection](Images/Connection.png)
 
 ## 🧠 Concept: SMB (Server Message Block)
 Protocol used for file and printer sharing
@@ -42,11 +46,14 @@ Explanation:
 -L → List shares
 -p 54397 → Target port
 -N → No password (anonymous login)
+### SMBCLIENT
+![SMBCLINET](Images/Smbclinet_getting_list.png)
 ## 🔐 Step 3: Connect to Share
 ```bash
 smbclient  //mysterious-sea.picoctf.net/shares -p 58157 -N
 ```
-
+### Connection
+![Connection](Images/Getting_flag.png)
 ## 📂 Step 4: List Files
 ls
 
@@ -59,6 +66,8 @@ get flag.txt
 exit
 ## 🏁 Step 7: View Flag
 cat flag.txt
+### Final Output
+![FInal Output](Images/Final_Output.png)
 ## 💡 Key Takeaways
 Always perform enumeration first
 SMB shares may allow anonymous access
