@@ -16,6 +16,8 @@
 Exploit improper input handling in a ping command to execute arbitrary system commands and retrieve the flag.
 
 ---
+### Question
+![Question](Images/Question.png)
 
 ## ⚙️ Step 1: Connect to the Service
 
