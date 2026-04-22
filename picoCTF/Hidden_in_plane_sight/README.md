@@ -15,6 +15,8 @@ Your objective:
 * Retrieve the flag
 
 ---
+### Question
+![Question](Images/Question.png)
 
 ## 🛠️ Tools Used
 
@@ -34,7 +36,8 @@ Start by analyzing the image metadata:
 ```bash
 exiftool img.jpg
 ```
-
+### Exiftool
+![Exiftool](Images/exiftool.png)
 🔎 Observation:
 
 * Found a **Base64 encoded string** in the comment field
@@ -51,10 +54,13 @@ exiftool img.jpg
 * Another Base64 string appears
 
 ---
-
+### Layer 1
+![Layer 1](Images/Decode1.png)
 ### 3️⃣ Decode Base64 (Layer 2)
 
 * Decode the second Base64 string
+### Layer 2
+![Layer 2](Images/Decode2.png)
 
 📌 Output:
 
@@ -73,6 +79,8 @@ Use `steghide` with the discovered password:
 ```bash
 steghide extract -sf img.jpg -p pAzzword
 ```
+### Steghide
+![Steghide](Images/steghide.png)
 
 📂 Output:
 
@@ -85,6 +93,8 @@ steghide extract -sf img.jpg -p pAzzword
 ```bash
 cat flag.txt
 ```
+### Final Output
+![Final Output](Images/flag.png)
 
 🎉 Flag successfully obtained!
 
@@ -104,8 +114,7 @@ cat flag.txt
 
 ```
 .
-├── img.jpg
-├── flag.txt
+├── Images
 └── README.md
 ```
 
